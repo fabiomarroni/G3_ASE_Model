@@ -106,8 +106,8 @@ while(length(newline) != 0 ){
 	                          alpha_sd_MH=0.1,
 	                          delta_sd_MH=0.1,    #
 	                          phi_sd_MH=.05,			#Initial SD for the normal proposal to sample from phi via MH
-	                          q1=2*q_	,  #2*q_[c(2,1,3)] when swapping xs and ys			#Bias correction hyperparameter for alleles in Line 1
-	                          q2=2*q_,	 #2*q_[c(2,1,3)]			                        #Bias correction for alleles in Line 2
+	                          q1=q_	,  #2*q_[c(2,1,3)] when swapping xs and ys			#Bias correction hyperparameter for alleles in Line 1
+	                          q2=q_,	 #2*q_[c(2,1,3)]			                        #Bias correction for alleles in Line 2
 	                          plots=FALSE			#If true plots are depicted
 	                          
 	    )
